@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LÊ HẢI PHONG-Seawind | Nền Tảng Đào Tạo & Thi Đánh Giá Năng Lực Kiểm Toán Nội Bộ</title>
+    <meta name="description" content="Nền tảng đào tạo Kiểm toán Nội bộ, ACCA, CIA, CFA & Quản trị Rủi ro Doanh nghiệp hàng đầu. Giao diện 3D Luxury, Thi Online Anti-Cheat & Diễn đàn trao đổi Giảng viên - Học viên.">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+</head>
+<body>
+
+    <!-- ==============================================================================
+         1. TOP ANNOUNCEMENT BAR
+         ============================================================================== -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-contact">
+                <a href="tel:0913275851">📞 Hotline Tổng Đài: <strong>0913275851</strong></a>
+                <a href="mailto:support@lehaiphong-seawind.edu.vn">✉️ support@lehaiphong-seawind.edu.vn</a>
+                <span style="color:#d97706;">✨ Ưu đãi 47% Học Phí Kiểm Toán Nội Bộ & Tài Chính 2026</span>
+            </div>
+            <div>
+                <a href="#" class="btn-consult-top" onclick="openConsultationModal('Tư vấn miễn phí')">TƯ VẤN MIỄN PHÍ 0913275851</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============================================================================
+         2. MAIN HEADER & BRANDING
+         ============================================================================== -->
+    <header class="main-header">
+        <div class="container header-wrapper">
+            <a href="/" class="brand-logo">
+                <div class="logo-badge-3d">🛡️</div>
+                <div class="logo-text-group">
+                    <span class="brand-title">LÊ HẢI PHONG-Seawind</span>
+                    <span class="brand-subtitle">INTERNAL AUDIT & FINANCE ACADEMY</span>
+                </div>
+            </a>
+
+            <div style="display:flex; align-items:center; gap:20px;">
+                <div style="display:flex; border:1px solid #cbd5e1; border-radius:20px; padding:4px 12px; background:#f8fafc;">
+                    <input type="text" placeholder="Tìm khóa học Kiểm toán, ACCA..." style="border:none; background:transparent; outline:none; font-size:0.9rem; width:200px;">
+                    <button style="border:none; background:transparent; cursor:pointer; font-size:1.1rem;">🔍</button>
+                </div>
+                <button class="btn-consult-top" onclick="switchPortal('exam-center')">THI ĐÁNH GIÁ NĂNG LỰC</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==============================================================================
+         3. DYNAMIC MULTI-LEVEL MEGA MENU (HORIZONTAL / VERTICAL / PARENT / CHILD)
+         ============================================================================== -->
+    <nav class="nav-bar">
+        <div class="container">
+            <ul class="nav-menu" id="nav-menu-list">
+                <!-- Javascript will dynamically inject multi-level menu structure -->
+                <li class="nav-item"><a href="#about" class="nav-link">Về chúng tôi ▼</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Khóa học ▼</a></li>
+                <li class="nav-item"><a href="#news" class="nav-link">Tin tức - Sự kiện ▼</a></li>
+                <li class="nav-item"><a href="#scholarships" class="nav-link">Học bổng</a></li>
+                <li class="nav-item"><a href="#student-corner" class="nav-link">Góc học viên</a></li>
+                <li class="nav-item"><a href="#exam-center" class="nav-link">Thi Đánh Giá Năng Lực</a></li>
+                <li class="nav-item"><a href="#qa-forum" class="nav-link">Trao Đổi Giảng Viên - Học Viên</a></li>
+                <li class="nav-item"><a href="#documents" class="nav-link">Tài liệu</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ==============================================================================
+         4. HERO BANNER - 3D CINEMATIC LUXURY
+         ============================================================================== -->
+    <section class="hero-banner">
+        <div class="container hero-grid">
+            <!-- Left: Lecturer 3D Presentation Card -->
+            <div class="hero-lecturer-card">
+                <div class="lecturer-img-box">
+                    <div class="lecturer-avatar-3d">👨‍🏫</div>
+                    <div class="lecturer-info-overlay">
+                        <div class="lecturer-name">LÊ HẢI PHONG-Seawind</div>
+                        <div class="lecturer-title">Founder & Giám Đốc Kiểm Toán Nội Bộ Enterprise</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Content Header & Offer Highlights -->
+            <div class="hero-content">
+                <div class="badge-discount-hero">
+                    <span>🔥 ƯU ĐÃI 47%</span>
+                    <span>QUẢN TRỊ TÀI CHÍNH & KIỂM TOÁN NỘI BỘ</span>
+                </div>
+                <h1 class="hero-main-title">
+                    LÀM CHỦ TÀI CHÍNH & KIỂM TOÁN NỘI BỘ, VỮNG VÀNG TĂNG TRƯỞNG
+                </h1>
+                <p class="hero-subhead">
+                    Lộ trình chuẩn hóa tư duy kiểm toán dựa trên rủi ro (Risk-Based Audit), giúp Lãnh đạo & Học viên chủ động kiểm soát rủi ro, tối ưu vận hành và bảo vệ giá trị doanh nghiệp.
+                </p>
+
+                <div class="curriculum-list">
+                    <div class="curr-item"><span class="curr-num">01</span> PHÂN TÍCH CHUYÊN SÂU BÁO CÁO TÀI CHÍNH</div>
+                    <div class="curr-item"><span class="curr-num">02</span> QUẢN TRỊ HIỆU QUẢ CHI PHÍ DOANH NGHIỆP</div>
+                    <div class="curr-item"><span class="curr-num">03</span> LẬP NGÂN SÁCH THEO CHIẾN LƯỢC</div>
+                    <div class="curr-item"><span class="curr-num">04</span> DỮ LIỆU & CÔNG NGHỆ AI TRONG KIỂM TOÁN</div>
+                    <div class="curr-item"><span class="curr-num">05</span> QUẢN TRỊ & TỐI ƯU HIỆU QUẢ VỐN LƯU ĐỘNG</div>
+                    <div class="curr-item"><span class="curr-num">06</span> TỐI ƯU THUẾ & QUẢN TRỊ RỦI RO TUÂN THỦ</div>
+                    <div class="curr-item"><span class="curr-num">07</span> QUẢN TRỊ & TÁI CẤU TRÚC VỐN BỀN VỮNG</div>
+                </div>
+
+                <div class="hero-cta-group">
+                    <button class="btn-cta-gold" onclick="openConsultationModal('Đăng ký nhận ưu đãi 47%')">
+                        ĐĂNG KÝ NHẬN ƯU ĐÃI NGAY ➔
+                    </button>
+                    <button class="btn-cta-outline" onclick="switchPortal('exam-center')">
+                        THI ĐÁNH GIÁ NĂNG LỰC LIVE 🎯
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================================================
+         5. PORTAL SWITCHER BAR (PUBLIC, STUDENT LMS, LECTURER, EXAM CENTER, QA FORUM)
+         ============================================================================== -->
+    <div class="portal-bar">
+        <div class="container portal-tabs">
+            <button class="portal-tab-btn active" data-portal="public">🌐 TRANG CHỦ PUBLIC</button>
+            <button class="portal-tab-btn" data-portal="student">🎓 PORTAL HỌC VIÊN</button>
+            <button class="portal-tab-btn" data-portal="lecturer">👨‍🏫 PORTAL GIẢNG VIÊN</button>
+            <button class="portal-tab-btn" data-portal="exam-center">🎯 TRUNG TÂM THI ONLINE (ANTI-CHEAT)</button>
+            <button class="portal-tab-btn" data-portal="qa-forum">💬 TRAO ĐỔI GIẢNG VIÊN - HỌC VIÊN</button>
+        </div>
+    </div>
+
+    <!-- ==============================================================================
+         6. PORTAL PANELS
+         ============================================================================== -->
+    <main class="container" style="min-height:600px;">
+        
+        <!-- PANEL 1: PUBLIC HOMEPAGE & COURSES -->
+        <section id="portal-public" class="panel-content active">
+            <div class="section-header">
+                <span class="section-tag">CHƯƠNG TRÌNH ĐÀO TẠO CHUẨN QUỐC TẾ</span>
+                <h2 class="section-title">Khóa Học Kiểm Toán Nội Bộ & Chứng Chỉ Chuyên Nghiệp</h2>
+            </div>
+            <div class="courses-grid" id="courses-grid-container">
+                <!-- Rendered dynamically via JS -->
+            </div>
+        </section>
+
+        <!-- PANEL 2: STUDENT PORTAL (LMS) -->
+        <section id="portal-student" class="panel-content">
+            <div class="section-header">
+                <span class="section-tag">KHÔNG GIAN HỌC TẬP HỌC VIÊN</span>
+                <h2 class="section-title">Bảng Điều Khiển Học Viên - LÊ HẢI PHONG-Seawind</h2>
+            </div>
+            <div style="background:#ffffff; border-radius:20px; padding:30px; box-shadow:var(--card-shadow); border:1px solid #cbd5e1;">
+                <div style="display:grid; grid-template-columns: 1fr 2fr; gap:30px;">
+                    <div style="background:#f8fafc; padding:20px; border-radius:12px; border:1px solid #e2e8f0;">
+                        <h3>👩‍🎓 Thông tin học viên</h3>
+                        <p style="margin-top:10px;"><strong>Họ tên:</strong> Nguyễn Kim Anh</p>
+                        <p><strong>Lớp học:</strong> Kiểm toán Nội bộ K48 & ACCA Advanced</p>
+                        <p><strong>Mã HV:</strong> SW-STUDENT-2026-88</p>
+                        <div style="margin-top:15px; background:#eff6ff; padding:10px; border-radius:8px; border:1px solid #93c5fd;">
+                            <small style="color:#1d4ed8; font-weight:700;">🎯 Tiến độ hoàn thành: 78%</small>
+                            <div style="height:8px; background:#cbd5e1; border-radius:4px; margin-top:4px; overflow:hidden;">
+                                <div style="width:78%; height:100%; background:var(--gold-gradient);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>📚 Bài giảng & Tài liệu đang học</h3>
+                        <div style="display:flex; flex-direction:column; gap:12px; margin-top:15px;">
+                            <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 16px; background:#f1f5f9; border-radius:8px;">
+                                <div>
+                                    <strong>Chương 3: Quy trình Kiểm toán Mua hàng & Thanh toán (P2P)</strong><br/>
+                                    <small style="color:#64748b;">Video HD 1080p • 45 phút • Giảng viên Lê Hải Phong</small>
+                                </div>
+                                <button class="btn-consult-top" onclick="alert('Đang phát bài giảng video HD...')">▶️ HỌC TIẾP</button>
+                            </div>
+                            <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 16px; background:#f1f5f9; border-radius:8px;">
+                                <div>
+                                    <strong>File Mẫu: Ma trận Đánh giá Rủi ro COSO (Excel Live)</strong><br/>
+                                    <small style="color:#64748b;">Tài liệu độc quyền Seawind Academy</small>
+                                </div>
+                                <button class="btn-consult-top" onclick="alert('Đang tải file Excel Ma Trận Rủi Ro COSO...')">📥 TẢI FILE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PANEL 3: LECTURER PORTAL -->
+        <section id="portal-lecturer" class="panel-content">
+            <div class="section-header">
+                <span class="section-tag">PORTAL GIẢNG VIÊN & QUẢN TRỊ VẬN HÀNH</span>
+                <h2 class="section-title">Bảng Điều Khiển Giảng Viên LÊ HẢI PHONG-Seawind</h2>
+            </div>
+            <div style="background:#ffffff; border-radius:20px; padding:30px; box-shadow:var(--card-shadow); border:1px solid #cbd5e1;">
+                <h3>👨‍🏫 Lịch Quản Lý Bài Tập & Thắc Mắc Cần Giải Đáp (2)</h3>
+                <div style="margin-top:20px; display:flex; flex-direction:column; gap:15px;">
+                    <div style="padding:16px; border:1px solid #e2e8f0; border-radius:12px; background:#f8fafc;">
+                        <div style="display:flex; justify-content:space-between;">
+                            <strong>Học viên: Nguyễn Kim Anh (Lớp K48)</strong>
+                            <span style="color:#d97706; font-weight:700;">Chờ trả lời</span>
+                        </div>
+                        <p style="margin:8px 0; color:#334155;">"Thầy ơi, ma trận rủi ro COSO cho quy trình tồn kho cần ưu tiên rủi ro thất thoát hay rủi ro biến động giá ạ?"</p>
+                        <button class="btn-consult-top" onclick="switchPortal('qa-forum')">💬 TRẢ LỜI NGAY TRÊN DIỄN ĐÀN</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PANEL 4: EXAM CENTER WITH ANTI-CHEAT SYSTEM -->
+        <section id="portal-exam-center" class="panel-content">
+            <div class="section-header">
+                <span class="section-tag">HỆ THỐNG ĐÁNH GIÁ NĂNG LỰC TRỰC TUYẾN</span>
+                <h2 class="section-title">Trung Tâm Thi Đánh Giá Năng Lực Kiểm Toán Nội Bộ</h2>
+            </div>
+            <div class="exam-container" id="exam-render-box">
+                <!-- Rendered dynamically via JS -->
+            </div>
+        </section>
+
+        <!-- PANEL 5: Q&A FORUM LECTURER-STUDENT EXCHANGE -->
+        <section id="portal-qa-forum" class="panel-content">
+            <div class="section-header">
+                <span class="section-tag">DIỄN ĐÀN TRAO ĐỔI VÀ GIẢI ĐÁP HỌC THUẬT</span>
+                <h2 class="section-title">Kênh Trao Đổi Giữa Giảng Viên & Học Viên</h2>
+            </div>
+            <div class="forum-box">
+                <!-- Create new Question Box -->
+                <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:16px; padding:20px; margin-bottom:30px;">
+                    <h3 style="color:#0f4c81; margin-bottom:12px;">✍️ Đặt Câu Hỏi Cho Giảng Viên Lê Hải Phong</h3>
+                    <input type="text" id="new-topic-title" placeholder="Tiêu đề câu hỏi / thắc mắc của bạn..." style="width:100%; padding:10px 16px; border:1px solid #cbd5e1; border-radius:8px; margin-bottom:10px; outline:none;">
+                    <textarea id="new-topic-content" placeholder="Mô tả chi tiết tình huống hoặc câu hỏi kiểm toán nội bộ..." style="width:100%; height:90px; padding:10px 16px; border:1px solid #cbd5e1; border-radius:8px; margin-bottom:12px; outline:none;"></textarea>
+                    <button class="btn-cta-gold" style="font-size:0.95rem; padding:10px 24px;" onclick="createTopic()">GỬI CÂU HỎI CHO GIẢNG VIÊN 🚀</button>
+                </div>
+
+                <div id="forum-topics-list">
+                    <!-- Rendered dynamically via JS -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==============================================================================
+         7. FOOTER
+         ============================================================================== -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>LÊ HẢI PHONG-Seawind</h3>
+                <p style="color:#cbd5e1; font-size:0.9rem; margin-bottom:14px;">
+                    Nền tảng Đào tạo, Thi Đánh Giá Năng Lực & Kiểm Toán Nội Bộ Enterprise hàng đầu Việt Nam. Chuẩn hóa kiến thức theo IIA, COSO & ACCA Global.
+                </p>
+                <p style="color:var(--gold-primary); font-weight:700;">📞 Hotline 24/7: 0913275851</p>
+                <p style="color:#94a3b8; font-size:0.88rem;">✉️ Email: support@lehaiphong-seawind.edu.vn</p>
+            </div>
+            <div>
+                <h4 style="color:var(--gold-primary); margin-bottom:14px;">Về chúng tôi</h4>
+                <ul style="list-style:none; line-height:2; font-size:0.9rem; color:#cbd5e1;">
+                    <li><a href="#" style="color:inherit; text-decoration:none;">Về LÊ HẢI PHONG-Seawind</a></li>
+                    <li><a href="#" style="color:inherit; text-decoration:none;">Đội ngũ Giảng viên</a></li>
+                    <li><a href="#" style="color:inherit; text-decoration:none;">Cơ sở vật chất 3D</a></li>
+                    <li><a href="#" style="color:inherit; text-decoration:none;">Tuyển dụng</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="color:var(--gold-primary); margin-bottom:14px;">Khóa học nổi bật</h4>
+                <ul style="list-style:none; line-height:2; font-size:0.9rem; color:#cbd5e1;">
+                    <li><a href="#" style="color:inherit; text-decoration:none;">Kiểm toán Nội bộ Enterprise</a></li>
+                    <li><a href="#" style="color:inherit; text-decoration:none;">Luyện thi CIA (Part 1,2,3)</a></li>
+                    <li><a href="#" style="color:inherit; text-decoration:none;">ACCA Online & F2F</a></li>
+                    <li><a href="#" style="color:inherit; text-decoration:none;">CGMA & IFRS Master</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="color:var(--gold-primary); margin-bottom:14px;">Đăng ký tư vấn 0913275851</h4>
+                <p style="font-size:0.85rem; color:#cbd5e1; margin-bottom:10px;">Nhận lộ trình học tập và mã giảm giá 47% ngay hôm nay!</p>
+                <button class="btn-cta-gold" style="font-size:0.9rem; width:100%; justify-content:center;" onclick="openConsultationModal('Đăng ký từ Footer')">
+                    ĐĂNG KÝ NGAY
+                </button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 LÊ HẢI PHONG-Seawind Academy. All rights reserved. Hotline hỗ trợ trực tiếp: 0913275851.
+        </div>
+    </footer>
+
+    <!-- ==============================================================================
+         8. CONSULTATION MODAL
+         ============================================================================== -->
+    <div class="modal-overlay" id="consultation-modal">
+        <div class="modal-box">
+            <span class="modal-close">&times;</span>
+            <h3 style="color:var(--navy-main); font-size:1.4rem; margin-bottom:6px;">NHẬN TƯ VẤN & ƯU ĐÃI 47%</h3>
+            <p style="color:#64748b; font-size:0.9rem; margin-bottom:20px;">Hotline cố vấn tư vấn trực tiếp: <strong>0913275851</strong></p>
+            
+            <form onsubmit="submitConsultationForm(event)">
+                <input type="hidden" id="modal-course-title" value="Kiểm Toán Nội Bộ Master">
+                <div style="margin-bottom:14px;">
+                    <label style="display:block; font-weight:600; font-size:0.88rem; margin-bottom:4px;">Họ và tên học viên *</label>
+                    <input type="text" id="form-fullname" required placeholder="Nguyễn Văn A" style="width:100%; padding:10px 14px; border:1px solid #cbd5e1; border-radius:8px; outline:none;">
+                </div>
+                <div style="margin-bottom:14px;">
+                    <label style="display:block; font-weight:600; font-size:0.88rem; margin-bottom:4px;">Số điện thoại *</label>
+                    <input type="tel" id="form-phone" required placeholder="0913275851" style="width:100%; padding:10px 14px; border:1px solid #cbd5e1; border-radius:8px; outline:none;">
+                </div>
+                <div style="margin-bottom:18px;">
+                    <label style="display:block; font-weight:600; font-size:0.88rem; margin-bottom:4px;">Email nhận tài liệu</label>
+                    <input type="email" id="form-email" placeholder="hocvien@gmail.com" style="width:100%; padding:10px 14px; border:1px solid #cbd5e1; border-radius:8px; outline:none;">
+                </div>
+                <button type="submit" class="btn-cta-gold" style="width:100%; justify-content:center;">GỬI YÊU CẦU CHO TỔNG ĐÀI 0913275851</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
