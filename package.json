@@ -1,0 +1,16 @@
+{
+  "name": "lehaiphong-seawind-internal-audit",
+  "version": "1.0.0",
+  "description": "Website Đào tạo & Kiểm toán Nội bộ LÊ HẢI PHONG-Seawind",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.3.1"
+  }
+}
