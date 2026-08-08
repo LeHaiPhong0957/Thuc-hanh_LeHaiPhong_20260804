@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "code": "IA-PRO-2026",
+      "title": "LÀM CHỦ KIỂM TOÁN NỘI BỘ & QUẢN TRỊ RỦI RO ENTERPRISE",
+      "category": "Kiểm toán Nội bộ",
+      "priceOriginal": "18.500.000đ",
+      "priceDiscount": "9.805.000đ",
+      "discountBadge": "Ưu đãi 47%",
+      "modules": 7,
+      "students": 1420,
+      "rating": 4.9,
+      "highlights": [
+        "Phân tích chuyên sâu báo cáo tài chính & Gian lận",
+        "Lập kế hoạch kiểm toán dựa trên rủi ro (Risk-based Audit)",
+        "Đánh giá hệ thống KSNB theo chuẩn COSO & ISO 31000",
+        "Ứng dụng AI & Data Analytics phát hiện dấu hiệu bất thường"
+      ]
+    },
+    {
+      "id": 2,
+      "code": "ACCA-ADVANCED",
+      "title": "KHÓA HỌC ACCA ONLINE CHUẨN QUỐC TẾ 2026",
+      "category": "ACCA",
+      "priceOriginal": "22.000.000đ",
+      "priceDiscount": "11.660.000đ",
+      "discountBadge": "Ưu đãi 47%",
+      "modules": 12,
+      "students": 3100,
+      "rating": 5.0,
+      "highlights": [
+        "Cam kết đầu ra chuẩn 100% bằng chứng chỉ ACCA Global",
+        "Giảng viên là Trưởng phòng Kiểm toán BIG4 & CGMA",
+        "Kho 5000+ đề thi Mock Test có chấm điểm AI"
+      ]
+    },
+    {
+      "id": 3,
+      "code": "CIA-FASTTRACK",
+      "title": "LUYỆN THI CHỨNG CHỈ KIỂM TOÁN NỘI BỘ CIA (USA)",
+      "category": "Kiểm toán Nội bộ",
+      "priceOriginal": "25.000.000đ",
+      "priceDiscount": "13.250.000đ",
+      "discountBadge": "Ưu đãi 47%",
+      "modules": 3,
+      "students": 890,
+      "rating": 4.95,
+      "highlights": [
+        "Full 3 Phần: Part 1 Essentials, Part 2 Practice, Part 3 Knowledge",
+        "Bộ ngân hàng câu hỏi 2.000+ đề CIA chuẩn IIA",
+        "Tương tác 1-1 với Chuyên gia Kiểm toán Nội bộ LÊ HẢI PHONG"
+      ]
+    }
+  ]
+}
